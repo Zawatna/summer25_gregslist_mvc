@@ -5,7 +5,8 @@ import { House } from "../models/House.js";
 export class HouseController {
     constructor() {
         AppState.on('houses', this.drawHouses)
-        console.log('House Controller Connected')
+        console.log('House Controller Connected');
+        this.drawHouses()
     }
 
 

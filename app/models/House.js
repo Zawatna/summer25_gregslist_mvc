@@ -16,11 +16,10 @@ export class House {
     <div class="col-md-6 mb-3">
         <div class="position-relative house-border">
             <img
-            src="${this.imgUrl}"
-            alt="${this.bedrooms} ${this.bathrooms} " class="house-img">
-            <span >$${this.priceWithCommas}</span>
-            <p>Number of Bedrooms</p>
-            <p>Number of Bathrooms</p>
+            src="${this.imgUrl}" alt="" class="house-img">
+            <span class="fs-3 fw-bold" >$${this.priceWithCommas}</span>
+            <p>Number of Bedrooms: ${this.bedrooms}</p>
+            <p>Number of Bathrooms: ${this.bathrooms}</p>
             <p>Size: ${this.sqft}</p>
             <p>Year: ${this.year}</p>
             <p>Description: ${this.description}</p>

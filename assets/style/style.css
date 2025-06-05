@@ -58,4 +58,5 @@ input {
 .house-border {
   border-style: double;
   border-width: thick;
+  border-color: black;
 }
